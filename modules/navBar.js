@@ -1,11 +1,11 @@
 // selecting buttons
-const listbtn = document.getElementById('link-list');
-const addbtn = document.getElementById('link-add');
-const contactbtn = document.getElementById('link-contact');
+const listbtn = document.querySelector('#link-list');
+const addbtn = document.querySelector('#link-add');
+const contactbtn = document.querySelector('#link-contact');
 // slecting containers
-const bc = document.getElementById('list');
-const ac = document.getElementById('add-book');
-const cc = document.getElementById('contact');
+const bc = document.querySelector('#list');
+const ac = document.querySelector('#add-book');
+const cc = document.querySelector('#contact');
 
 // adding event listeners
 addbtn.addEventListener('click', () => {
